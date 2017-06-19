@@ -13,12 +13,19 @@
       <annotatedJdk>${org.checkerframework:jdk8:jar}</annotatedJdk>
   </properties>
 
-	  <distributionManagement>
-   <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>http://localhost:8081/repository/Repo/</url>
-   </snapshotRepository>
-</distributionManagement>
+	 <distributionManagement>
+  <repository>
+    <id>developer</id>
+    <name>developer</name>
+    <url>http://localhost:8081/nexus/content/repositories/Repo/</url>
+  </repository>
+  <snapshotRepository>
+    <id>developer</id>
+    <name>developer</name>
+    <url>http://localhost:8081/nexus/content/repositories/Repo/</url>
+  </snapshotRepository>
+</distributionManagement> 
+	
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
