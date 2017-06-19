@@ -17,12 +17,12 @@
   <repository>
     <id>developer</id>
     <name>developer</name>
-    <url>http://localhost:8081/nexus/content/repositories/Repo/</url>
+    <url>http://localhost:8081/nexus/repositories/Repo/</url>
   </repository>
   <snapshotRepository>
     <id>developer</id>
     <name>developer</name>
-    <url>http://localhost:8081/nexus/content/repositories/Repo/</url>
+    <url>http://localhost:8081/nexus/repositories/Repo/</url>
   </snapshotRepository>
 </distributionManagement> 
 	
